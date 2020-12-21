@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+                @font-face { font-family: monospace, monospace; src: url('./fonts/RobotoMono-Light.ttf') }
+                h1.heading {
+                        font-family: monospace;
+                        display: inline;
+                        vertical-align: top;
+                }
+                h2 {
+                        font-family: monospace
+                }
+                p {
+                        font-family: monospace;
+                }
+                a.relevantlinks {
+                        font-family: monospace;
+                        display: block;
+                }
+                p.heading {
+                        display: inline;
+                        vertical-align: -3px;
+                }
+        </style>
+</head>
+<body>
+        <div>
+                <h1 class="heading"><a href="https://arshbot.dev" style="color: #000000;text-decoration: none">arshbot</a></h1>
+                <p class="heading"><a href="https://arshbot.dev/projects/index.html" style="color: #000000;text-decoration: none">>> projects</a></p>
+                <p class="heading">>> frankensteinbike</p>
+        </div>
+        <div style="margin-top: 30px">
+                <div>
+                        <h2>What it is</h2>
+                        <p>An electric bike powered by a bird scooter hub motor and bird scooter controller</p>
+                        <img src="https://arshbot.dev/etc/bike.jpg" alt="bike" height="150">
+                </div>
+                <div>
+                        <h2>Why</h2>
+                        <p>There were a lot of ride share scooters around my neighborhood. A lot. Like go on a walk on the nearby trail and find 4 in the mud lost and forgotten. Forget the sidewalks, irresponsible renters had left them on all the bike trails when they ran out of battery, under bridges and in lakes. They were what one might call an abundant resource.</p>
+                        <p>At the same time, I was trying to get more into biking. And biking is hard! So why not have a way to get a little help while you pedal? That got my friends and I curious about how we’d go about building a pedal assist bike ourselves.</p>
+                </div>
+                <div>
+                <div>
+                        <h2>How</h2>
+                        <p>You can see where this is going. It actually took a few different scooters (all responsibly reclaimed from the mud or from destroyed units). The most difficult part was transforming the hub motor into something that could transfer direct torque to the real wheel. Our first attempt at welding gear teeth onto the hub motor didn’t go very well. Turns out you can’t weld metals of different compositions together very easily, and the hub motor was aluminum and the gear wheel we used was some sort of iron alloy.</p>
+                        <img src="https://arshbot.dev/etc/hubmotor.jpg" alt="hubmotor" height="200">
+                        <p>But bolts work!</p>
+                        <p>The scooter brains are custom and interface with bird hq with the help of a cellular connection and gps module, so we had to order some replacements from china. Thankfully, the scooters bird uses are a modified version of the xiaomi m365. Some replacement controllers for that did the trick.</p>
+                        <img src="https://arshbot.dev/etc/controller.jpg" alt="controller" height="350">
+                        <p>To operate the hub motor, we had to take the whole electrical system of a scooter and place it on the bike. This included strapping the battery, battery controller, and accelerometer to the frame of the bike as you can see in the initial picture. 
+                </div>
+                        <h2>Relevant links</h2>
+                        <a class="relevantlinks" href="https://github.com/arshbot/lnt">https://github.com/arshbot/template</a>
+                </div>
+
+        </div>
+</body>
+</html>
+
