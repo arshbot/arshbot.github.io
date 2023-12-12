@@ -4,35 +4,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title></title>
         <style>
-                @font-face { font-family: monospace, monospace; src: url('./fonts/RobotoMono-Light.ttf') }
-                h1.heading {
-                        font-family: monospace;
-                        display: inline;
-                        vertical-align: top;
-                }
-                h2 {
-                        font-family: monospace
-                }
-                p {
-                        font-family: monospace;
-                        text-overflow: ellipsis; /* will make [...] at the end */
-			width: 1000px; /* change to your preferences */
-			overflow:hidden; /* older browsers */ 
-                }
-                a.relevantlinks {
-                        font-family: monospace;
-                        display: block;
-                }
-                p.heading {
-                        display: inline;
-                        vertical-align: -3px;
-                }
-		td {
-                        font-family: monospace;
-		}		
-                table {
-                }
-
+            @font-face { font-family: monospace, monospace; src: url('./fonts/RobotoMono-Light.ttf') }
+            h1.heading {
+                font-family: monospace;
+                display: inline;
+                vertical-align: top;
+            }
+            h2 {
+                font-family: monospace
+            }
+            p {
+                font-family: monospace;
+                /* Removed text-overflow, width, and overflow */
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+            }
+            a.relevantlinks {
+                font-family: monospace;
+                display: block;
+            }
+            p.heading {
+                display: inline;
+                vertical-align: -3px;
+            }
+            td {
+                font-family: monospace;
+            }
+            table {
+            }
         </style>
 </head>
 <body>
@@ -42,15 +41,21 @@
         </div>
         <div style="margin-top: 30px">
                 <div>
-                        <h2>Who</h2>
-                        <p>arshbot is the dev persona of an early 20s american born indian that goes by the name Harsha Goli. The name is derived from a childhood nickname that stuck after I wore home made robot costumes for halloween many times in a row, each iteration being dubbed arshbot2000, arshbot3000 etcetera. 
+                        <p>Howdy, I'm Harsha
+                        </div>
                 <div>
-                        <h2>Why</h2>
-                        <p>The design of this website is intentional. It's job is simple - to host a brief explanation of who I am, what I've done, and what I think. For this reason, this site does not require a frilly design, nor does it even require javascript. It's execution is simple and concise. No more, no less.</p>
+                        <h2>Who</h2>
+                        <p>Who is Harsha? I'm curious how you found me, but honestly I'm just an internet gremlin. Sometimes I live in a van for extended periods of time, and sometimes because living on top of a mountain gets boring, I like to contribute to open source.
+                        <p>Oh yes, and I do product management for a living. I was an software engineer for many years, but realized I had a knack for building stuff people could get attached to, and that was pretty cool.</p>
+                        <h2>Design</h2>
+                        <p>"If you do Product why does your site look like ass?" is a question I sometimes get. And I really do appreciate the concern. </p>
+                        <h2>Okay but who are you</h2>
+                        <p>How do you even answer this question? Can someone even decide in the moment who they really are, or is this something we can only answer in reflection? 
+                        <p>Wherever and whoever you are, I'd love to get to know you, and get to meet you. Send me an email! I'm based in Atlanta and am always happy to meet new people :) 
                 </div>
                 <div>
                         <h2>Profiles</h2>
-                        <table style="width: 20%">
+                        <table>
                                 <tr>
                                         <td><a class="relevantlinks" href="https://twitter.com/_arshbot/">Twitter</a></td>
                                         <td>_arshbot</td>
@@ -74,16 +79,6 @@
 
                         </table>
 
-                </div>
-                <div>
-                        <h2>Donate</h2>
-			<p>Don't donate to me, donate to save puppies - I'll be doing things either ways. But if you must throw me some dust...</p>
-                        <table style="width: 30%;">
-                                <tr>
-                                        <td>bitcoin</td>
-                                        <td>bc1qnuahsk62wfleejrp9su5wmqushm4dh4z29pqwn</td>
-                                </tr>
-                        </table>
                 </div>
         </div>
 </body>
