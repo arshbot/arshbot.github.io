@@ -1,58 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title></title>
-        <style>
-                @font-face { font-family: monospace, monospace; src: url('./fonts/RobotoMono-Light.ttf') }
-                h1.heading {
-                        font-family: monospace;
-                        display: inline;
-                        vertical-align: top;
-                }
-                h2 {
-                        font-family: monospace
-                }
-                p {
-                        font-family: monospace;
-                }
-                a.relevantlinks {
-                        font-family: monospace;
-                        display: block;
-                }
-                p.heading {
-                        display: inline;
-                        vertical-align: -3px;
-                }
-        </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lightninghat</title>
+    <style>
+        body {
+            line-height: 1.4;
+            padding: 0 10px;
+            margin: 50px auto;
+            max-width: 650px;
+        }
+        
+        #maincontent {
+            max-width: 42em;
+            margin: 15 auto;
+        }
+        
+        h1.heading {
+            display: inline;
+            vertical-align: top;
+        }
+        
+        p.heading {
+            display: inline;
+            vertical-align: -15px;
+        }
+        
+        a.relevantlinks {
+            display: block;
+        }
+    </style>
 </head>
+
 <body>
+    <div>
+        <h1 class="heading"><a href="https://arsh.bot" style="color: #000000;text-decoration: none">arshbot</a></h1>
+        <p class="heading">
+            <a href="https://arsh.bot/projects/index.html" style="color: #000000;text-decoration: none"></a><span style="font-size: 0.8em">>>> </span>projects</a>
+        </p>
+        <p class="heading"><span style="font-size: 0.8em">>>> </span> lightninghat</p>
+    </div>
+    <div style="margin-top: 30px">
         <div>
-                <h1 class="heading"><a href="https://arsh.bot" style="color: #000000;text-decoration: none">arshbot</a></h1>
-                <p class="heading"><a href="https://arsh.bot/projects/index.html" style="color: #000000;text-decoration: none">>> projects</a></p>
-                <p class="heading">>> lightninghat</p>
-        </div>
-        <div style="margin-top: 30px">
-                <div>
-                        <h2>What it is</h2>
-                        <p>A raspberry pi connected to an ardiuno controlling some motors, controlled by a django server running on top of an lnd node. All held together by a yellow helmet</p>
-                        <img src="https://arsh.bot/etc/lnhat.jpg" alt="lnhat" width="150" height="150">
-
-                </div>
-                <div>
-                        <h2>Why</h2>
-                        <p>Built for lnconf 2019, I thought it'd be cool if I built a demo showing how easy it would be to accept bitcoin over lightning network in germany, a country well known for it's piss poor connectivity. Heavily inspired by a tweet of a man who built something similar except the fans spun every time a github pr was merged. And also because I wanted to play with an arduino :)</p>
-                        <img src="https://arsh.bot/etc/lnhat-outside.jpg" alt="lnhat" width="150" height="150">
-                </div>
-                <div>
-                        <h2>Relevant links</h2>
-                        <a class="relevantlinks" href="https://github.com/arshbot/lightninghat">https://github.com/arshbot/lightninghat</a>
-                        <a class="relevantlinks" href="https://twitter.com/fold_app/status/1185475626137862144">https://twitter.com/fold_app/status/1185475626137862144</a>
-                        <a class="relevantlinks" href="https://twitter.com/_arshbot/status/1185495623560286208">https://twitter.com/_arshbot/status/1185495623560286208</a>
-
-                </div>
+            <h2>What</h2>
+            <p>A raspberry pi connected to an ardiuno controlling some motors, controlled by a django server running on top of an lnd node. All held together by a yellow helmet</p>
+            <img src="https://arsh.bot/etc/lnhat.jpg" alt="lnhat" width="150" height="150">
 
         </div>
+        <div>
+            <h2>Why</h2>
+            <p>Built for lnconf 2019, I thought it'd be cool if I built a demo showing how easy it would be to accept bitcoin over lightning network in germany, a country well known for it's piss poor connectivity. Heavily inspired by a tweet of a man who
+                built something similar except the fans spun every time a github pr was merged. And also because I wanted to play with an arduino :)</p>
+            <img src="https://arsh.bot/etc/lnhat-outside.jpg" alt="lnhat" width="150" height="150">
+        </div>
+        <div>
+            <h2>Relevant links</h2>
+            <a class="relevantlinks" href="https://github.com/arshbot/lightninghat">https://github.com/arshbot/lightninghat</a>
+            <a class="relevantlinks" href="https://twitter.com/fold_app/status/1185475626137862144">https://twitter.com/fold_app/status/1185475626137862144</a>
+            <a class="relevantlinks" href="https://twitter.com/_arshbot/status/1185495623560286208">https://twitter.com/_arshbot/status/1185495623560286208</a>
+
+        </div>
+
+    </div>
 </body>
-</html>
 
+</html>

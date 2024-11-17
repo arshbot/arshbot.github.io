@@ -1,53 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title></title>
-        <style>
-                @font-face { font-family: monospace, monospace; src: url('./fonts/RobotoMono-Light.ttf') }
-                h1.heading {
-                        font-family: monospace;
-                        display: inline;
-                        vertical-align: top;
-                }
-                h2 {
-                        font-family: monospace
-                }
-                p {
-                        font-family: monospace;
-                }
-                a.relevantlinks {
-                        font-family: monospace;
-                        display: block;
-                }
-                p.heading {
-                        display: inline;
-                        vertical-align: -3px;
-                }
-        </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lnt</title>
+    <style>
+        body {
+            line-height: 1.4;
+            padding: 0 10px;
+            margin: 50px auto;
+            max-width: 650px;
+        }
+        
+        #maincontent {
+            max-width: 42em;
+            margin: 15 auto;
+        }
+        
+        h1.heading {
+            display: inline;
+            vertical-align: top;
+        }
+        
+        p.heading {
+            display: inline;
+            vertical-align: -15px;
+        }
+        
+        a.relevantlinks {
+            display: block;
+        }
+    </style>
 </head>
+
 <body>
+    <div>
+        <h1 class="heading"><a href="https://arsh.bot" style="color: #000000;text-decoration: none">arshbot</a></h1>
+        <p class="heading">
+            <a href="https://arsh.bot/projects/index.html" style="color: #000000;text-decoration: none"></a><span style="font-size: 0.8em">>>> </span>projects</a>
+        </p>
+        <p class="heading"><span style="font-size: 0.8em">>>> </span> lnt</p>
+    </div>
+    <div style="margin-top: 30px">
         <div>
-                <h1 class="heading"><a href="https://arsh.bot" style="color: #000000;text-decoration: none">arshbot</a></h1>
-                <p class="heading"><a href="https://arsh.bot/projects/index.html" style="color: #000000;text-decoration: none">>> projects</a></p>
-                <p class="heading">>> lnt</p>
+            <h2>What it is</h2>
+            <p>lnt stands for Lightning Network Tools. It was built initially as a supplement for lncli, the command line tools which come prepackaged with the LND client. However as time went on, it became a full on replacement for lncli and added more
+                features on top. It is a human/unix friendly way of interacting with your lnd client from the comfort of your command line.</p>
         </div>
-        <div style="margin-top: 30px">
-                <div>
-                        <h2>What it is</h2>
-                        <p>lnt stands for Lightning Network Tools. It was built initially as a supplement for lncli, the command line tools which come prepackaged with the LND client. However as time went on, it became a full on replacement for lncli and added more features on top. It is a human/unix friendly way of interacting with your lnd client from the comfort of your command line.</p>
-                </div>
-                <div>
-                        <h2>Why</h2>
-                        <p>lncli sucks. A lot. It's not human friendly to use, spits output in json, and is unforgiving in it's error messages. At Fold, we had a very large lnd node to manage and doing tasks with lncli wasn't feasible and we eneded up relying heavily on bash scripts. Again, getting annoyed at the amount of replicated effort every time I needed a new behavior with my scripts, I decided to scrap the scripts and package everything in python as a cli.</p>
-                </div>
-                <div>
-                        <h2>Relevant links</h2>
-                        <a class="relevantlinks" href="https://github.com/arshbot/lnt">https://github.com/arshbot/lnt</a>
-                        <a class="relevantlinks" href="https://twitter.com/_arshbot/status/1230985085865910278">https://twitter.com/_arshbot/status/1230985085865910278</a>
-                </div>
+        <div>
+            <h2>Why</h2>
+            <p>lncli sucks. A lot (at the time of writing). It's not human friendly to use, spits output in json, and is unforgiving in it's error messages. At Fold, we had a very large lnd node to manage and doing tasks with lncli wasn't feasible and we
+                eneded up relying heavily on bash scripts. Again, getting annoyed at the amount of replicated effort every time I needed a new behavior with my scripts, I decided to scrap the scripts and package everything in python as a cli.</p>
+        </div>
+        <div>
+            <h2>Relevant links</h2>
+            <a class="relevantlinks" href="https://github.com/arshbot/lnt">https://github.com/arshbot/lnt</a>
+            <a class="relevantlinks" href="https://twitter.com/_arshbot/status/1230985085865910278">https://twitter.com/_arshbot/status/1230985085865910278</a>
+        </div>
 
-        </div>
+    </div>
 </body>
-</html>
 
+</html>
